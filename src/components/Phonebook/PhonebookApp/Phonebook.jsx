@@ -25,7 +25,7 @@ class Phonebook extends Component {
       localStorage.setItem('contacts', JSON.stringify([]));
     }
   }
-
+  x;
   componentDidUpdate() {
     localStorage.setItem('contacts', JSON.stringify(this.state.contacts));
   }
